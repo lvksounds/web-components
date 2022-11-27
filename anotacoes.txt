@@ -1,0 +1,9 @@
+Web Components - anotações
+DOM - Document Object Model
+
+Document -> é quem recebe a arvore de estrutura do html. 
+
+shadowDom -> Criamos uma dom interna no componente que estamos criando.
+
+Virtual DOM -> cria um outra representação da DOM, so altera a dom original quando necessário. A dom virtual é criada em memória. 
+Quando preciso modificar na dom original ele sincroniza a virtual e a original. 
